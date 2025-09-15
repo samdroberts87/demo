@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: java-app
-          image: samdroberts/visa-back:1.35
+          image: samdroberts/visa-back:2multi
           ports:
             - containerPort: 7000
           env:

@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: react-app
-          image: samdroberts/visa-front:1.35
+          image: samdroberts/visa-front:2multi
           ports:
             - containerPort: 80
           resources:

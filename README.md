@@ -1,4 +1,11 @@
-<!-- ![CI](https://github.com/mustaqmstk/Visa-Holder-Movement-Tracker/actions/workflows/release.yml/badge.svg) -->
-
 # Visa-Holder-Movement-Tracker
-Capstone training Project for group G3
+
+Full 3 tier architecture for visa applicaiton.
+
+Group capstone project used to determine compitency for project allocation.
+
+I was responsible for providing the platform and "devops" stuff. I therefore did not write the code in following directories (with exception of dockerfiles)
+
+- front-end
+- back-end
+- ui-testing
