@@ -1,0 +1,58 @@
+input[type="text"], input[type="password"], input[type="date"], input[type="email"], select {
+    width: 250px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    border: 1px #80808038 solid;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+h2.login-title {
+    background-color: #1F70C7;
+    padding: 10px;
+    border-top-left-radius: 20px ;    
+    border-top-right-radius: 20px ;   
+}
+
+.login-txt {
+    font-weight: 500;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+.login-container {
+    background-color: #ffffff;
+    width: 400px;
+    border: 1px solid rgba(128, 128, 128, 0.288);
+    color: black;
+    border-top-left-radius: 0px ;    
+    border-top-right-radius: 0px ;   
+    border-bottom-right-radius: 20px; 
+    border-bottom-left-radius: 20px; 
+    padding: 40px;
+    display: flex;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+h1.login-txt {
+    font-size: 35px;
+}
+
+
+.login-usr {
+    margin-bottom: 10px;
+}
+
+.login-password {
+    margin-bottom: 20px;
+}
+
+

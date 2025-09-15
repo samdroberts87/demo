@@ -1,0 +1,94 @@
+
+
+.card-one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card-two {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+tr.userDet {
+    text-align: center;
+}
+
+.section-two {
+    text-align: left;
+    font-size: 15px;
+    margin: 28px 0px 28px 0px;
+}
+
+
+th.details-head {
+    padding: 10px;
+}
+
+h1.head-details {
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+h2.holder-details {
+    margin-bottom: 5px;
+}
+
+
+table.table-details {
+    border: 1px solid #dededf;
+    height: 100%;
+    width: 100%;
+    max-width: 900px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 1px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+p.email-details {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section-three {
+    border: solid 2px #8080804a;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.section-three svg {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.travel-table td {
+    padding-bottom: 20px;
+}
+
+table.table-details td {
+    padding-bottom: 20px;
+}
+
+.container-visa-holder-deets {
+    color: black;
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    scale: .9;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 37%);
+    width: 900px;
+}
+
+
+.section-four h2 {
+    margin-bottom: 30px;
+}
+
+

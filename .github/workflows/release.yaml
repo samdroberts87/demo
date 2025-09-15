@@ -1,0 +1,19 @@
+name: Trigger Jenkins Release Build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  trigger-jenkins:
+    if: github.actor == 'training-account-samrob'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger Jenkins Job
+        env:
+          JENKINS_API_TOKEN: ${{ secrets.JENKINS_API_TOKEN }}
+        run: |
+          curl -X POST "http://145.241.247.39:8080/job/Automated_Release_pipeline/job/Automated_Release_Pipeline/build?token=release" \
+            --user "admin:$JENKINS_API_TOKEN"

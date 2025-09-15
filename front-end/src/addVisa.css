@@ -1,0 +1,87 @@
+input[type="date"] {
+    color: rgb(139, 139, 139);
+    font-size: 14px;
+    text-align: center;
+
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(40%) sepia(80%) saturate(500%) hue-rotate(180deg);
+    cursor: pointer;
+  }
+
+.login-txt {
+    font-weight: 500;
+    font-size: 25px;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+.login-container.addvisa-con {
+    width: 100%;
+    margin-top: 65px;
+    border: 1px solid #80808052;
+    background-color: #Ffffff;
+    color: black;
+    font-weight: 500;
+    border-radius: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.section-add, .section-add-two {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section-add-two {
+    display: flex;
+    justify-content: center;
+}
+
+.login-usr.addVisa {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.login-password.addVisa {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    margin-left: 10px;
+}
+
+.section-add-two {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+button.btn-addVisa {
+    background-color: #1f70c7;
+    font-weight: 500;
+}
+
+button.btn-addVisa {
+    margin-right: 30px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button.btn-addVisa.cancel {
+    background-color: white;
+    color: black;
+    border: 1px solid grey;
+    margin-right: 10px;
+}
+
+h2.login-txt.addVisa{
+    font-size: 35px;
+}
