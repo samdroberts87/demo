@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/mustaqmstk/Visa-Holder-Movement-Tracker.git
+    repoURL: https://github.com/samdroberts87/Visa-Holder-Movement-Tracker-main.git
     targetRevision: main
     path: devops/kubernetes/gitops/manifests/database
   destination:
